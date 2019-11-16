@@ -31,37 +31,4 @@ public class AlipayConfig {
    
    @Value("${gatewayUrl}")
    public  String gatewayUrl;
-   
-   
-   public String getApp_id() {
-      return app_id;
-   }
-   
-   public String getMerchant_private_key() {
-      return merchant_private_key;
-   }
-   
-   public String getAlipay_public_key() {
-      return alipay_public_key;
-   }
-   
-   public String getNotify_url() {
-      return notify_url;
-   }
-   
-   public String getReturn_url() {
-      return return_url;
-   }
-   
-   public String getSign_type() {
-      return sign_type;
-   }
-   
-   public String getCharset() {
-      return charset;
-   }
-   
-   public String getGatewayUrl() {
-      return gatewayUrl;
-   }
 }
